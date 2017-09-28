@@ -6,7 +6,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        minSdkVersion 9
+        minSdkVersion 14
         targetSdkVersion rootProject.ext.targetSdkVersion
     }
 
@@ -19,8 +19,8 @@ android {
 //TODO: local maven deployment
 
 dependencies {
-    compile 'com.google.android.gms:play-services-location:10.0.1'
-    compile 'com.google.android.gms:play-services-places:10.0.1'
+    compile 'com.google.android.gms:play-services-location:11.4.0'
+    compile 'com.google.android.gms:play-services-places:11.4.0'
     compile 'io.reactivex:rxjava:1.2.1'
 }
 
